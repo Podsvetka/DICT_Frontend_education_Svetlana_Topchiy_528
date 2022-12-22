@@ -1,5 +1,19 @@
+@import "compass";
+
+@import "./abstractions/flex_mixins";
+@import "./abstractions/site_mixins";
+
 // Variables
 @import "./variables/colors";
+@import "./variables/breakpoints";
 
 // Base
 @import "./base/general";
+
+//Components.
+@import "./components/header";
+@import "./components/visitors";
+@import "./components/news";
+@import "./components/applicants";
+@import "./components/footer";
+@import "./components/section";
